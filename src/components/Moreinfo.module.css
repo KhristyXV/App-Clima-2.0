@@ -1,0 +1,130 @@
+.a{
+   color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.a:hover {
+   color: rgba(3, 3, 3, 0.555);
+   transition: 2s;
+}
+
+.subContainer {
+   font-size: 25px;
+   display: flex;
+   letter-spacing: 2px;
+   border-color: RED;
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   align-items: center;
+   justify-content: center;
+}
+
+.propsContainer{
+   line-height: 90px;
+   position: absolute;
+   color: white;
+   border: 2px solid rgb(255, 255, 255);
+   border-radius: 20px;
+   background: rgba(0, 0, 0, 0.743);
+   padding-bottom: 0px;
+   padding-right: 65px;
+   padding-left: 59px;
+}
+
+.movePropsContainer{
+   text-align: center;
+   padding-bottom: 120px;
+   padding-right: 450px;   
+}
+
+.nameContainer{ 
+   padding-top: 20px;
+   padding-bottom: 740px;
+   padding-left: 26px;
+   position: absolute;
+   border: 2px solid white;
+   
+   padding-right: 45px;
+   background: rgba(0, 0, 0, 0.418);
+   
+}
+
+.cardcontainer {
+   border: 2px solid white;
+   
+   padding-right: 45px;
+   background: rgba(0, 0, 0, 0.418);
+}
+.name{
+   font-size: 60px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   text-transform: uppercase; 
+   display: inline;
+   color:rgb(240, 240, 240);
+   text-shadow:4.5px 2px 6px rgb(233, 182, 16);
+   padding-left: 20px;
+}
+
+.containerBt {
+   display: flex;
+   margin-top: 500px;
+   margin-left: 223px;
+}
+
+.bt {
+  width: 350px;
+  height: 50px;
+  background: rgba(0, 0, 0, 0.743);
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  overflow: hidden;
+  border-color: white;
+  position: absolute;
+
+}
+
+.bt::before{
+   content: 'Regresar';
+   color: white;
+   
+   font-family: 'Century Gothic', sans-serif;
+   font-size: 30px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   transition: all .5s ease-in-out;
+ }
+ 
+ .bt:hover::before {
+   top: -30px;
+ }
+ 
+ .bt::after{
+   font-family:'Century Gothic', sans-serif;
+   content: 'Mas Ciudades';
+   font-size: 24.5px;
+   color: rgb(255, 255, 255);
+   position: absolute;
+   top: 140%;
+   left: 50%;
+   transform: translate(-50%, -80%);
+   transition: all .5s ease-in-out;
+ }
+ 
+ .bt:hover::after{
+   top:34px
+ }
+ 
+ .capa {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: #1c1c1d;
+   opacity:0.95;
+ } 
+

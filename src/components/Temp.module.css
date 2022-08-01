@@ -1,0 +1,26 @@
+.temp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:  1rem;
+    color: rgb(57, 150, 204);
+}
+
+.label{
+    font-size: 1.2rem;
+    font-weight: 100;
+    text-align: left;
+    padding: 1.2rem;
+    
+    color: white;
+}
+
+.label, .value{
+    text-align: center;
+    color: aliceblue;
+}
+
+.value {
+    font-size: 1.5rem;
+    font-weight: 1100;
+}

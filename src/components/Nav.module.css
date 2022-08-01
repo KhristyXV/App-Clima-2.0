@@ -1,0 +1,30 @@
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700,900');
+
+.logodesign {
+    margin-right: 1000px;
+    color:white;
+    font-size: 23px;
+
+  }
+
+.about {
+    color:white;
+    font-size: 28px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute; top: 7px; right: 40px;
+    
+} 
+
+
+
+.about:hover{
+
+  color: rgba(255, 255, 255, 1) ;
+  text-shadow: 2px 4px 25px  rgb(255, 255, 255);
+  transition: all 0.8s ease;
+ 
+}
+
+
+

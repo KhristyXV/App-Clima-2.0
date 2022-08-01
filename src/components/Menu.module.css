@@ -1,0 +1,82 @@
+#hero {
+  min-height: 100vh;
+  position: relative;
+}
+
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.capa {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #1c1c1d;
+  opacity:0.3;
+ 
+} 
+
+.button {
+  position: absolute;
+  width: 350px;
+  height: 90px;
+  background: #130703c2;
+  top: 140%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  overflow: hidden;
+  border-color: white;
+}
+
+.button::before{
+  content: 'COMENZAR';
+  color: white;
+  
+  font-family: 'Century Gothic', sans-serif;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all .5s ease-in-out;
+}
+
+.button:hover::before {
+  top: -30px;
+}
+
+.button::after{
+  font-family:'Century Gothic', sans-serif;
+  content: 'App Clima 2.0';
+  font-size: 24.5px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+  transition: all .5s ease-in-out;
+}
+
+.button:hover::after{
+  top:48px
+}
+
+.promo {
+  padding-top: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin: auto;
+  position: relative;
+  z-index: 2;
+}
